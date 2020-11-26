@@ -24,7 +24,7 @@ namespace Tarefa_POO_231120_1
         public override string precoTag()
         {
             return Nome 
-                + " - R$ " + precoTotal().ToString("F2", CultureInfo.InvariantCulture) 
+                + " - R$ " + Preco.ToString("F2", CultureInfo.InvariantCulture) 
                 + " (Taxa: " + Taxa.ToString("F2", CultureInfo.InvariantCulture) + ")";
         }
     }
